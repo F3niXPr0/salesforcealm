@@ -3,7 +3,7 @@ import { CurrentPageReference } from 'lightning/navigation';
 import { getRecord } from 'lightning/uiRecordApi';
 
 import { registerListener, unregisterAllListeners } from 'c/pubsub';
- 
+
 const fields = [
     'Property__c.Address__c',
     'Property__c.City__c',
